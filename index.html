@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ik360</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="root">
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #0f172a; color: #38bdf8; font-family: 'Poppins', sans-serif;">
+        <div style="width: 64px; height: 64px; border: 4px solid #1e293b; border-top: 4px solid #38bdf8; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 24px;"></div>
+        <div style="font-weight: 800; letter-spacing: 0.2em; font-size: 12px; text-transform: uppercase;">Sistem Yükleniyor</div>
+        <style>
+          @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        </style>
+      </div>
+    </div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "name": "ik360",
+  "version": "2.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@google/genai": "^1.42.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^16.11.26",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/react-grid-layout": "^1.3.6",
+    "@vitejs/plugin-react": "^5.1.4",
+    "ajv-formats": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "d3": "^7.9.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "html-to-image": "^1.11.13",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "jspdf": "^4.2.0",
+    "lucide-react": "^0.344.0",
+    "motion": "^12.34.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-grid-layout": "^2.2.2",
+    "react-is": "^19.2.4",
+    "react-pdf": "^10.4.1",
+    "react-zoom-pan-pinch": "^3.7.0",
+    "recharts": "^3.7.0",
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^4.9.5",
+    "vite": "^7.3.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "scripts": {
+    "dev": "tsx server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1"
+  }
+}
